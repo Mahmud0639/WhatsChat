@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="400dp"
+    android:layout_height="80dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    app:cardBackgroundColor="@color/white"
+    app:cardElevation="3dp"
+    app:cardCornerRadius="3dp"
+    app:contentPadding="5dp">
+
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/constraint">
+
+            <ImageView
+                android:id="@+id/worldIV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_sports_blue"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"/>
+            <TextView
+                android:id="@+id/bonusTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4.5GB + 3.5 GB Bonus"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginStart="5dp"
+                app:layout_constraintStart_toEndOf="@id/worldIV"
+                app:layout_constraintTop_toTopOf="@id/worldIV"/>
+            <TextView
+                android:id="@+id/validityTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3 Days"
+                app:layout_constraintStart_toStartOf="@id/bonusTV"
+                app:layout_constraintTop_toBottomOf="@id/bonusTV"
+                android:textSize="14dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/coins"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="70"
+                app:layout_constraintStart_toEndOf="@id/validityTV"
+                app:layout_constraintTop_toTopOf="@id/validityTV"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:background="#0960A5"
+                android:padding="2dp"
+                android:text="Top Selling"
+                android:textColor="@color/white"
+                android:textSize="11sp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintVertical_bias="0.26999998"
+                tools:layout_editor_absoluteX="324dp" />
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$89"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.89"
+                app:layout_constraintStart_toEndOf="@id/coins"
+                app:layout_constraintTop_toTopOf="@id/coins" />
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/price"
+                android:src="@drawable/ic_right_arrow"
+                android:layout_marginEnd="5dp"
+                app:layout_constraintBottom_toBottomOf="@id/price"/>
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

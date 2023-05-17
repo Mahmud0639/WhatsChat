@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "534725230879",
+    "project_id": "socialmediaadvanced-af48e",
+    "storage_bucket": "socialmediaadvanced-af48e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:534725230879:android:52536929a6b5e054e9302a",
+        "android_client_info": {
+          "package_name": "com.manuni.socialmedialikefacebookadvanced"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "534725230879-lomu0et7uhadjvclmo118l2dfnt66pit.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlU_IVpdJSesytioh1qTL_c6DT7RkpwcI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "534725230879-lomu0et7uhadjvclmo118l2dfnt66pit.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
